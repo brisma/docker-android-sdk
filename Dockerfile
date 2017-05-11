@@ -177,7 +177,7 @@ ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64/
 
 # Support Gradle
 ENV TERM dumb
-ENV JAVA_OPTS "-Xms512m -Xmx1024m"
+ENV JAVA_OPTS "-Xms512m -Xmx1536m"
 ENV GRADLE_OPTS "-XX:+UseG1GC -XX:MaxGCPauseMillis=1000"
 
 WORKDIR /project
